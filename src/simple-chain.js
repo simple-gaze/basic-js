@@ -25,6 +25,7 @@ const chainMaker = {
   removeLink(position) {
     // throw new NotImplementedError('Not implemented');
     if (typeof position === "string" || !Number.isInteger(position) || position === 0 || Math.abs(position) > this.chain.length) {
+      this.chain = [];
       throw new Error ('You can\'t remove incorrect link!')
     }
     if (position > 0) this.chain.splice(position - 1, 1)
