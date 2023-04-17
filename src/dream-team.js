@@ -22,7 +22,7 @@ function createDreamTeam(members) {
   
 }
 
-console.log(createDreamTeam(['Matt', 'Ann', 'Dmitry', 'Max']))
+
 module.exports = {
   createDreamTeam
 };

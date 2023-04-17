@@ -26,7 +26,7 @@ function dateSample(sampleActivity) {
   }
 }
 
-console.log(dateSample())
+
 module.exports = {
   dateSample
 };
